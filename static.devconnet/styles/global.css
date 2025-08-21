@@ -1,0 +1,56 @@
+
+
+:root{
+    --cor-preto: #000000;
+    --cor-azulado: #2F4157;
+    --cor-esverdeado: #577C8E;
+    --cor-azul: #52749C;
+    --cor-bege: #DACEC4;
+    --cor-areia: #F4EFEB;
+    --cor-azulbebe: #C7D9E5;
+    --cor-marrom-claro: #7A6C61;
+
+    --borda: 1px solid var(--cor-marrom-claro);
+    --borda-arrendondada: 2px;
+    --tamanho-fonte-lg: 20px;
+    --tamanho-fonte-md: 16px;
+    --tamanho-fonte-sm: 14px;
+
+}
+
+
+@font-face {
+    font-family: Libertinus_Sans;
+    src: url(../fontes/Libertinus_Sans/LibertinusSans-Bold.ttf), url(../fontes/Libertinus_Sans/LibertinusSans-Italic.ttf), url(../fontes/Libertinus_Sans/LibertinusSans-Regular.ttf);
+}
+
+@font-face {
+    font-family:Oswald;
+    src: url(../fontes/Oswald/Oswald-Bold.ttf),url(../fontes/Oswald/Oswald-ExtraLight.ttf), url(../fontes/Oswald/Oswald-Light.ttf), url(../fontes/Oswald/Oswald-SemiBold.ttf);
+}
+/*Seletor Global*/
+*{
+    font-family: Libertinus_Sans;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;/*o valor total do elemento conta tanto com espaços internos, externos e borda*/
+}
+
+body{
+    background-color:var(#c7d9e5);
+}
+
+h1{
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+/**/
+
+input{
+    width: 100%;
+    height: 35px;
+    border: var(--borda);
+    background-color: cornsilk;
+}
