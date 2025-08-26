@@ -1,18 +1,14 @@
 main{
     width: 100%;
     min-height: 100vh;
-    background-color: rgb(68, 96, 120);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 main> div{
-    background-color: rgb(165, 202, 227);
-    width: 50%;
-    height: 500px;
+     width: 90%; 
     display: flex;
-    justify-content: space-between;
-
+    gap: 15px;
     flex-direction: column;
     align-items: center;
 }
@@ -20,26 +16,62 @@ main> div{
 /*Formulário*/
 
 #formulario{
-    height: 300px;
-    /*background-color: rgb(150, 196, 237);*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3%;
+    gap: 15px;
 
 }
 
 #secao-cadastro{
-    width: 100px;
-    height: 100px ;
-    /*background-color: rgb(152, 182, 195);*/
+    height: 60px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .estilo-formulario{
     border: var(--borda);
     width: 100%;
     max-width: 340px;
-    background-color: var(--cor-areia);
+    background-color: var( --cor-areia);
 }
 
+#formulario > div{
+    width: 100%;
+}
+
+#formula > div > label{
+    font-size:var(--tamanho-fonte-sm);
+    color:var(--cor-bege);
+    font-weight: 500px;
+    padding-bottom: 4px;
+
+}
+
+.formulario-botao-azul{
+    width: 100%;
+    
+}
+
+#formulario > p{
+    text-transform: uppercase;
+    font-size: var(--tamanho-fonte-sm);
+    color: var( --cor-marrom-claro);
+}
+
+#formulario > a, #secao-cadastro > p > a{
+    text-decoration: none;
+    color: var(--cor-azul);
+}
+
+#secao-cadastro > p{
+    font-size: var(--tamanho-fonte-md);
+}
 .Informacao-aplicativo{
-    background-color: beige;
+    background-color: rgb(240, 240, 234);
     font-size: var(--tamanho-fonte-sm);
     color: var(--cor-preto);
     font-weight: 900;
