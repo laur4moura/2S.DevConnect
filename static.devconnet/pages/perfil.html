@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width-device-width, initial-scale=1.0">
@@ -13,23 +14,109 @@
     <link rel="stylesheet" href="../styles/global.css">
     <link rel="stylesheet" href="../styles/perfil.css">
 </head>
+
 <body>
-    <h1>Tela Perfil- DevConnect</h1>
-    <main>
-        <div>
-           <header>
-            <a href="">
-            <img src="../images/logo-devconnect-sm.svg" alt="">
-            
+    <h1>Tela Perfil - DevConnect</h1>
+
+    <header id="cabecalho">
+        <nav>
+            <a id="logo-desktop" href="./feed.html">
+                <img src="../images/logotipo- pagina inicial.svg" alt="Logo da empresa devcconect">
             </a>
-           </header>
+
+            <a id="logo-mobile" href="./feed.html">
+                <img src="../images/logotipo-mobile.svg" alt="Logo da empresa devcconect">
+            </a>
+            <div class="cabecalho-acoes">
+
+                <a href="./feed.html">
+                    <img src="../images/icone-casa-preto.svg" alt="Ícone de uma casa na cor preta">
+                </a>
+                <a href="#">
+                    <img src="../images/icone-coracao-preto.svg" alt="Ícone de um coração na cor azul">
+                </a>
+
+                <a href="#">
+                    <img class="foto-perfil" src="../images/foto_perfil.svg" alt="Foto de perfil">
+                </a>
+            </div>
+
+        </nav>
+    </header>
+
+    <main>
+        <div class="perfil-container">
+
+            <section id="dados-perfil">
+                <div class="informacoes-perfil">
+                    <img class="foto-perfil2" src="../images/foto- VIRGINIA.jpg" alt="">
+
+                    <div>
+                        <span class="nome-perfil">cpi_wepink</span>
+                        <button>3.090 publicações</button>
+                        <button>649 seguindo</button>
+                        <button>52,8M seguidores</button>
+
+                        <p>Bets Fonseca</p>
+                        <a class="button-action" href="">Editar perfil</a>
+                        <a  class="button-action" href="">Sair</a>
+
+                    </div>
+
+                </div>
+                <a href=""><img src="../images/icone-galeria-preto.svg" alt="">publicações</a>
+            
+            </section>
+            
+<!---Publicações-->
+            
+            <section id="publicacoes">
+                <article class="card-publi">
+                    <header>
+                        <a href="">
+                            <img class="foto-perfil" src="../images/foto- VIRGINIA.jpg" alt="foto de perfil">
+                            
+                            cpi_wepink
+
+                        </a>
+
+                    </header>
+
+                    <figure>
+
+                        <figcaption class="descricao-publicacao">
+                            <p class="texto-publi"> bom dia PESSUALLL</p>
+                        </figcaption>
+                        
+                    <div class="interacoes-publicacao">
+                        <button>
+                            <img src="../images/icone-coracao-preto.svg" alt="">
+                        </button>
+
+                        <button>
+                            <img src="../images/icone-comentario-preto.svg" alt="">
+                        </button>
+                        <span>
+                            197mil curtidas
+                        </span>
+
+                    </div>
+
+                    </figure>
+                    <button type="button"> Ver mais comentários</button>
+
+                </article>
+
+            </section> 
+
+            <section id="publicacao2">
+
+            </section>
         </div>
+        </div>
+
     </main>
+
 </body>
-
-
-
-
-
 
 </html>

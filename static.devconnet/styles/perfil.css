@@ -1,9 +1,145 @@
-main{
-    background-color: aquamarine;
+main {
+    min-height: 100vh;
     width: 100%;
-    min-width: 100vh;
+    background-color: var(--cor-azulbebe);
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.perfil-container {
+
+    width: 90%;
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30PX;
+}
+
+#dados-perfil {
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 30px;
+    row-gap: 13px;
+    cursor: pointer;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.informacoes-perfil {
+    border-bottom: 1px solid var(--cor-marrom-claro);
+    padding: 3%;
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    font-size: var(--tamanho-fonte-sm);
 }
 
+#dados-perfil>a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: black;
+    text-transform: uppercase;
+}
+
+.foto-perfil2 {
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    width: 110px;
+    height: 110px;
+}
+
+
+#dados-perfil>div>div {
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 15px;
+}
+
+.nome-perfil {
+    width: 100%;
+    font-size: 20px;
+}
+
+.informacoes-perfil>div>button {
+    font-size: var(--tamanho-fonte-sm);
+    background-color: transparent;
+    border: none;
+}
+
+.button-action {
+    color: var(--cor-esverdeado);
+    font-size: var(--tamanho-fonte-sm);
+    gap: 20px;
+}
+
+.informacoes-perfil>div>p {
+    font-weight: 400;
+}
+
+.card-publi{
+    background-color: aliceblue;
+    width: 100%;          /* ocupa toda a largura disponível */
+    max-width: 700px;     /* limite opcional */
+    min-height: 300px;    /* aumenta a altura mínima */
+    padding: 20px;        /* espaço interno */
+    border-radius: 10px; 
+    
+}
+
+.card-publi > header{
+    display: flex;
+    align-items: center;
+    padding: 3%;
+}
+
+.card-publi > header > a{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration:none;
+    color: black;
+
+}
+
+#publicacoes{
+    width: 100%;          /* ocupa toda a largura do .perfil-container */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 400px) {
+    #dados-perfil>div>div {
+        max-width: 400px;
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 314px) {
+    #dados-perfil>div {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nome-perfil {
+        text-align: center;
+    }
+
+}
