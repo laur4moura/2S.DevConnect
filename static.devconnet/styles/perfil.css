@@ -93,11 +93,26 @@ main {
     max-width: 700px;     /* limite opcional */
     min-height: 300px;    /* aumenta a altura mínima */
     padding: 20px;        /* espaço interno */
-    border-radius: 10px; 
+    border-radius: 10px;  
     
 }
 
+    .card-publi2{
+        background-color: aliceblue;
+        width: 100%;          /* ocupa toda a largura disponível */
+        max-width: 700px;     /* limite opcional */
+        min-height: 300px;    /* aumenta a altura mínima */
+        padding: 20px;        /* espaço interno */
+        border-radius: 10px;
+    }
+
 .card-publi > header{
+    display: flex;
+    align-items: center;
+    padding: 3%;
+}
+
+.card-publi2 > header{
     display: flex;
     align-items: center;
     padding: 3%;
@@ -109,6 +124,23 @@ main {
     gap: 10px;
     text-decoration:none;
     color: black;
+    font-weight: 400;
+    font-size: var(--tamanho-fonte-md);
+    font-family: Oswald;
+
+
+}
+
+.card-publi2 > header > a{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration:none;
+    color: black;
+    font-weight: 400;
+    font-size: var(--tamanho-fonte-md);
+    font-family: Oswald;
+
 
 }
 
@@ -118,9 +150,57 @@ main {
     flex-direction: column;
     align-items: center;
 }
+#publicacao2{
+    width: 100%;          /* ocupa toda a largura do .perfil-container */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.decricao-publicacao{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-weight: 500;
+    order: 2;
+    padding: 0 3%;
+    flex-wrap: wrap;
+}
 
+.interacoes-publicacao > button{
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+.card-publi > button{
+    margin: 15px 3%;
+    background-color: transparent;
+    border: none;
+    color: #969696;
+    cursor: pointer;
+    font-weight: 300;
+}
+.card-publi2 > button{
+    margin: 15px 3%;
+    background-color: transparent;
+    border: none;
+    color: #969696;
+    cursor: pointer;
+    font-weight: 300;
+}
 
+.texto-publi{
+    font-size: larger;
+    padding: 3%;
+}
 
+.interacoes-publicacao{
+    display: flex;
+    width: 110px;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 15px 3%
+    
+}
 
 
 
@@ -142,4 +222,8 @@ main {
         text-align: center;
     }
 
+}
+
+.interacoes-publicacao{
+    width: 90px;
 }
