@@ -6,12 +6,15 @@ USE db__devconnect;
 CREATE TABLE tb_usuario (
 id INT IDENTITY(1,1) PRIMARY KEY,
 nome_completo        NVARCHAR (255)           NOT NULL, 
-nome_usuario         NVARCHAR (50)  UNIQUE    NOT NULL, 
+nome_usuario         NVARCHAR (50)            NOT NULL, 
 email                NVARCHAR (255) UNIQUE    NOT NULL, 
 senha                NVARCHAR (50)            NOT NULL, 
 foto_perfil_url      NVARCHAR (150)           NULL, 
 );
 SELECT * FROM tb_usuario;
+
+ALTER TABLE tb_usuario
+ALTER COLUMN nome_usuario NVARCHAR (50) NOT NULL;
 --------------------------------------------------------
 
 CREATE TABLE tb_publicacao (
