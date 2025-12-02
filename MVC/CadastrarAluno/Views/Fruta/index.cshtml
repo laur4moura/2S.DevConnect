@@ -1,0 +1,18 @@
+@using CadastrarAluno.Controllers
+@model List<CadastrarAluno.Models.Fruta>
+
+
+<h1>FRUTAS</h1>
+
+<h2>Lista de Frutas</h2>
+
+@foreach(var fruta in Model){
+
+<p>
+    Id: @fruta.Id,
+    Nome: @fruta.Nome,
+    Cor: @fruta.Cor,
+    Categoria: @fruta.Categoria,
+</p>   
+
+}
