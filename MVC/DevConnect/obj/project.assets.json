@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\54000450816\\Desktop\\back-end\\MCV\\DevConnect\\DevConnect.csproj",
+      "projectUniqueName": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\DevConnect.csproj",
       "projectName": "DevConnect",
-      "projectPath": "C:\\Users\\54000450816\\Desktop\\back-end\\MCV\\DevConnect\\DevConnect.csproj",
+      "projectPath": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\DevConnect.csproj",
       "packagesPath": "C:\\Users\\54000450816\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\54000450816\\Desktop\\back-end\\MCV\\DevConnect\\obj\\",
+      "outputPath": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\54000450816\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -1,0 +1,92 @@
+main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main> div{
+     width: 90%; 
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Formulário*/
+
+#formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3%;
+    gap: 15px;
+
+}
+
+#secao-cadastro{
+    height: 60px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.estilo-formulario{
+    border: var(--borda);
+    width: 100%;
+    max-width: 340px;
+    background-color: var( --cor-areia);
+}
+
+#formulario > div{
+    width: 100%;
+}
+
+#formula > div > label{
+    font-size:var(--tamanho-fonte-sm);
+    color:var(--cor-bege);
+    font-weight: 500px;
+    padding-bottom: 4px;
+
+}
+
+.formulario-botao-azul{
+    width: 100%;
+    
+}
+
+#formulario > p{
+    text-transform: uppercase;
+    font-size: var(--tamanho-fonte-sm);
+    color: var( --cor-marrom-claro);
+}
+
+#formulario > a, #secao-cadastro > p > a{
+    text-decoration: none;
+    color: var(--cor-azul);
+}
+
+#secao-cadastro > p{
+    font-size: var(--tamanho-fonte-md);
+}
+.Informacao-aplicativo{
+    background-color: rgb(240, 240, 234);
+    font-size: var(--tamanho-fonte-sm);
+    color: var(--cor-preto);
+    font-weight: 900;
+}
+
+#secao-instalacao{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+#secao-instalacao img{
+    width: 136px;
+    height: 39px;
+   
+}
+

@@ -1,0 +1,99 @@
+main{
+    background-color: whitesmoke;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main> div{
+ 
+    width: 90%; 
+   display: flex;
+   gap: 15px;
+   flex-direction: column;
+   align-items: center;
+}
+#cadastre-se{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3%;
+    gap: 15px;
+    text-align: center;
+
+}
+#secao-conectar-se{
+    height: 60px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor-areia);
+}
+
+.estilo-cadastro{
+    border: var(--borda);
+    width: 100%;
+    max-width: 340px;
+    background-color: var(--cor-azul);
+}
+
+#cadastro > div{
+    width: 100%;
+}
+
+#cadastro > div > label{
+    font-size:var(--tamanho-fonte-md);
+    color:var(--cor-areia);
+    font-weight: 500px;
+    padding-bottom: 4px;
+
+}
+
+.cadastro-botao-azul{
+    width: 100%;
+    height: 35px;
+    font-size: var(--tamanho-fonte-sm);
+}
+
+#cadastro > p{
+    text-transform: uppercase;
+    font-size: 500
+    ;
+    color: var( --cor-marrom-claro);
+}
+
+#cadastro > a, #secao-conectar-se > p > a{
+    text-decoration: none;
+    color: var(--cor-azul);
+    font-size: var(--tamanho-fonte-md);
+    background-color:var(--cor-areia) ;
+}
+
+#secao-conectar-se > p{
+    font-size: var(--tamanho-fonte-md);
+    justify-content: center;
+    align-items: center;
+}
+
+#cadastre-se p{
+
+    font-size: var(--tamanho-fonte-sm);
+
+}
+
+.file{
+    display: none;
+}
+
+#campo-upload{
+    background-color: var(--cor-areia);
+}
+
+.botao-upload{
+   display: inline-block;
+   padding: 10px 20px;
+   background: var(--cor-areia);
+   cursor: pointer;
+}

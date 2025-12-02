@@ -1,259 +1,427 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\54000450816\\Desktop\\back-end\\MCV\\DevConnect\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\DevConnect.bundle.scp.css",
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\DevConnect.bundle.scp.css",
       "PackagePath": "staticwebassets\\DevConnect.8jlx483ao7.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\54000450816\\Desktop\\back-end\\MCV\\DevConnect\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\css\\cadastro.css",
+      "PackagePath": "staticwebassets\\css\\cadastro.css"
+    },
+    {
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\css\\feed.css",
+      "PackagePath": "staticwebassets\\css\\feed.css"
+    },
+    {
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\css\\global.css",
+      "PackagePath": "staticwebassets\\css\\global.css"
+    },
+    {
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\css\\perfil.css",
+      "PackagePath": "staticwebassets\\css\\perfil.css"
+    },
+    {
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\54000450816\\Desktop\\back-end\\MCV\\DevConnect\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\54000450816\\Desktop\\back-end\\MCV\\DevConnect\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\images\\Captura de tela 2025-09-02 084545.png",
+      "PackagePath": "staticwebassets\\images\\Captura de tela 2025-09-02 084545.png"
+    },
+    {
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\images\\IMG_0481.JPG",
+      "PackagePath": "staticwebassets\\images\\IMG_0481.JPG"
+    },
+    {
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\images\\Logotipo- Desktop.svg",
+      "PackagePath": "staticwebassets\\images\\Logotipo- Desktop.svg"
+    },
+    {
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\images\\app-store.svg",
+      "PackagePath": "staticwebassets\\images\\app-store.svg"
+    },
+    {
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\images\\foto feed 1.webp",
+      "PackagePath": "staticwebassets\\images\\foto feed 1.webp"
+    },
+    {
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\images\\foto feed 2.jpg",
+      "PackagePath": "staticwebassets\\images\\foto feed 2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\images\\foto feed 3.jpg",
+      "PackagePath": "staticwebassets\\images\\foto feed 3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\images\\foto story's 10.jpg",
+      "PackagePath": "staticwebassets\\images\\foto story's 10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\images\\foto story's 2.png",
+      "PackagePath": "staticwebassets\\images\\foto story's 2.png"
+    },
+    {
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\images\\foto story's 3.png",
+      "PackagePath": "staticwebassets\\images\\foto story's 3.png"
+    },
+    {
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\images\\foto story's 4.png",
+      "PackagePath": "staticwebassets\\images\\foto story's 4.png"
+    },
+    {
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\images\\foto story's 5.png",
+      "PackagePath": "staticwebassets\\images\\foto story's 5.png"
+    },
+    {
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\images\\foto story's 6.jpg",
+      "PackagePath": "staticwebassets\\images\\foto story's 6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\images\\foto story's 7.jpg",
+      "PackagePath": "staticwebassets\\images\\foto story's 7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\images\\foto story's 8.jpg",
+      "PackagePath": "staticwebassets\\images\\foto story's 8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\images\\foto story's 9.jpg",
+      "PackagePath": "staticwebassets\\images\\foto story's 9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\images\\foto- VIRGINIA.jpg",
+      "PackagePath": "staticwebassets\\images\\foto- VIRGINIA.jpg"
+    },
+    {
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\images\\foto_perfil.svg",
+      "PackagePath": "staticwebassets\\images\\foto_perfil.svg"
+    },
+    {
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\images\\google-play.svg",
+      "PackagePath": "staticwebassets\\images\\google-play.svg"
+    },
+    {
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\images\\icone casinha pequeno.svg",
+      "PackagePath": "staticwebassets\\images\\icone casinha pequeno.svg"
+    },
+    {
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\images\\icone comentario pequeno.svg",
+      "PackagePath": "staticwebassets\\images\\icone comentario pequeno.svg"
+    },
+    {
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\images\\icone coracao pequeno.svg",
+      "PackagePath": "staticwebassets\\images\\icone coracao pequeno.svg"
+    },
+    {
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\images\\icone galeria pequeno.svg",
+      "PackagePath": "staticwebassets\\images\\icone galeria pequeno.svg"
+    },
+    {
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\images\\icone-casa-azul.svg",
+      "PackagePath": "staticwebassets\\images\\icone-casa-azul.svg"
+    },
+    {
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\images\\icone-casa-preto.svg",
+      "PackagePath": "staticwebassets\\images\\icone-casa-preto.svg"
+    },
+    {
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\images\\icone-comentario-preto.svg",
+      "PackagePath": "staticwebassets\\images\\icone-comentario-preto.svg"
+    },
+    {
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\images\\icone-coracao-azul.svg",
+      "PackagePath": "staticwebassets\\images\\icone-coracao-azul.svg"
+    },
+    {
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\images\\icone-coracao-preto.svg",
+      "PackagePath": "staticwebassets\\images\\icone-coracao-preto.svg"
+    },
+    {
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\images\\icone-galeria-preto.svg",
+      "PackagePath": "staticwebassets\\images\\icone-galeria-preto.svg"
+    },
+    {
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\images\\logo-devconnect-lg.svg",
+      "PackagePath": "staticwebassets\\images\\logo-devconnect-lg.svg"
+    },
+    {
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\images\\logo-devconnect-md.svg",
+      "PackagePath": "staticwebassets\\images\\logo-devconnect-md.svg"
+    },
+    {
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\images\\logo-devconnect-sm.svg",
+      "PackagePath": "staticwebassets\\images\\logo-devconnect-sm.svg"
+    },
+    {
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\images\\logotipo- pagina inicial.svg",
+      "PackagePath": "staticwebassets\\images\\logotipo- pagina inicial.svg"
+    },
+    {
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\images\\logotipo-mobile.svg",
+      "PackagePath": "staticwebassets\\images\\logotipo-mobile.svg"
+    },
+    {
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\images\\post-gabigordo.svg",
+      "PackagePath": "staticwebassets\\images\\post-gabigordo.svg"
+    },
+    {
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\images\\verificado.webp",
+      "PackagePath": "staticwebassets\\images\\verificado.webp"
+    },
+    {
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\images\\verificado2.png",
+      "PackagePath": "staticwebassets\\images\\verificado2.png"
+    },
+    {
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\54000450816\\Desktop\\back-end\\MCV\\DevConnect\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\54000450816\\Desktop\\back-end\\MCV\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\54000450816\\Desktop\\back-end\\MCV\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\54000450816\\Desktop\\back-end\\MCV\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\54000450816\\Desktop\\back-end\\MCV\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\54000450816\\Desktop\\back-end\\MCV\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\54000450816\\Desktop\\back-end\\MCV\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\54000450816\\Desktop\\back-end\\MCV\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\54000450816\\Desktop\\back-end\\MCV\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\54000450816\\Desktop\\back-end\\MCV\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\54000450816\\Desktop\\back-end\\MCV\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\54000450816\\Desktop\\back-end\\MCV\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\54000450816\\Desktop\\back-end\\MCV\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\54000450816\\Desktop\\back-end\\MCV\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\54000450816\\Desktop\\back-end\\MCV\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\54000450816\\Desktop\\back-end\\MCV\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\54000450816\\Desktop\\back-end\\MCV\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\54000450816\\Desktop\\back-end\\MCV\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\54000450816\\Desktop\\back-end\\MCV\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\54000450816\\Desktop\\back-end\\MCV\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\54000450816\\Desktop\\back-end\\MCV\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\54000450816\\Desktop\\back-end\\MCV\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\54000450816\\Desktop\\back-end\\MCV\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\54000450816\\Desktop\\back-end\\MCV\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\54000450816\\Desktop\\back-end\\MCV\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\54000450816\\Desktop\\back-end\\MCV\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\54000450816\\Desktop\\back-end\\MCV\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\54000450816\\Desktop\\back-end\\MCV\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\54000450816\\Desktop\\back-end\\MCV\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\54000450816\\Desktop\\back-end\\MCV\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\54000450816\\Desktop\\back-end\\MCV\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\54000450816\\Desktop\\back-end\\MCV\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\54000450816\\Desktop\\back-end\\MCV\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\54000450816\\Desktop\\back-end\\MCV\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\54000450816\\Desktop\\back-end\\MCV\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\54000450816\\Desktop\\back-end\\MCV\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\54000450816\\Desktop\\back-end\\MCV\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\54000450816\\Desktop\\back-end\\MCV\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\54000450816\\Desktop\\back-end\\MCV\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\54000450816\\Desktop\\back-end\\MCV\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\54000450816\\Desktop\\back-end\\MCV\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\54000450816\\Desktop\\back-end\\MCV\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\54000450816\\Desktop\\back-end\\MCV\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\54000450816\\Desktop\\back-end\\MCV\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\54000450816\\Desktop\\back-end\\MCV\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\54000450816\\Desktop\\back-end\\MCV\\DevConnect\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\54000450816\\Desktop\\back-end\\MCV\\DevConnect\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\54000450816\\Desktop\\back-end\\MCV\\DevConnect\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\54000450816\\Desktop\\back-end\\MCV\\DevConnect\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\54000450816\\Desktop\\back-end\\MCV\\DevConnect\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\54000450816\\Desktop\\back-end\\MCV\\DevConnect\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\54000450816\\Desktop\\back-end\\MCV\\DevConnect\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\54000450816\\Desktop\\back-end\\MCV\\DevConnect\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\54000450816\\Desktop\\back-end\\MCV\\DevConnect\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\54000450816\\Desktop\\back-end\\MCV\\DevConnect\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\54000450816\\Desktop\\back-end\\MCV\\DevConnect\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\54000450816\\Desktop\\back-end\\MCV\\DevConnect\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "C:\\Users\\54000450816\\Desktop\\back-end\\MCV\\DevConnect\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.js"
     },
     {
-      "Id": "C:\\Users\\54000450816\\Desktop\\back-end\\MCV\\DevConnect\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.js"
     },
     {
-      "Id": "C:\\Users\\54000450816\\Desktop\\back-end\\MCV\\DevConnect\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
+      "Id": "C:\\Users\\54000450816\\Desktop\\2S.DevConnect\\MVC\\DevConnect\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
     },
     {
