@@ -1,29 +1,45 @@
- <link rel="stylesheet" href="../css/cadastro.css">
- 
- <main>
-        <h1>Tela principal login</h1>
+@model DevConnect.Models.TbUsuario
 
-<div>
-    <form id="cadastre-se" class="estilo-cadastro">
-        <img src="../images/logo-devconnect-lg.svg" alt="">
-        <p>Cadastre-se para comunidade exclusiva de desenvolvedores(as)</p>
-        
-        <input type="text" placeholder="Nome e sobrenome" id="">
-        <input type="text" placeholder="Nome de usuário" id="">
-        <input type="email" placeholder="E-mail" id="">
-        <input type="password" placeholder="Senha" id="">
-        <label for="campo-upload" class="botao-upload">Faça um upload da sua imagem aqui...</label>
-        <input type="file" placeholder="" id="campo-upload" class="file">
-        <button type="submit" class="cadastro-botao-azul"> Cadastre-se</button>
+<link rel="stylesheet" href="../css/cadastro.css">
 
-        <p> Ao se cadastrar, você concorda com nossos Termos, Política de Dados e Políticas de Coockies.</p>
+<script defer>
+    const UsuarioNovoCadastrado = "@ViewBag.UsuarioNovoCadastrado";
 
-        <section id="secao-conectar-se" class="estilo-cadastro">
-
-            <p>Tem conta? <a href="../pages/index.html">Conecte-se</a></p>
-        </section>
+    if (UsuarioNovoCadastrado === "Nao Cadastrado") {
+        alert("Usuario cadastrado com sucesso! Tente Novamente");
+    }
+</script>
 
 
-    </form>
-</div>
+<main>
+    <h1>Tela principal login</h1>
+
+    <div>
+        <form id="cadastre-se" class="estilo-cadastro" enctype="multipart/form-data" asp-action="Index"
+            asp-controller="Usuario">
+            <img src="../images/logo-devconnect-lg.svg" alt="">
+            <p>Cadastre-se para comunidade exclusiva de desenvolvedores(as)</p>
+
+            <input type="text" placeholder="Nome e sobrenome" id="" input type="text" asp-for="NomeCompleto">
+            <input type="text" placeholder="Nome de usuário" id="" input type="text" asp-for="NomeUsuario">
+            <input type="email" placeholder="gmail.com" id="" input type="email" asp-for="Email">
+            <input type="password" placeholder="Senha" id="" input type="password" asp-for="Senha">
+
+            <label for="campo-upload" class="botao-upload">
+                Faça um upload da sua imagem aqui...
+                <input type="file" id="campo-upload" class="file" name="imagem">
+            </label>
+
+            <button type="submit" class="cadastro-botao-azul"> Cadastre-se</button>
+
+            <p> Ao se cadastrar, você concorda com nossos Termos, Política de Dados e Políticas de Coockies.</p>
+
+            <section id="secao-conectar-se" class="estilo-cadastro">
+
+                <p>Tem conta? <a asp-controller="Home" asp-action="Index">Conecte-se</a></p>
+            </section>
+
+
+        </form>
+    </div>
 </main>

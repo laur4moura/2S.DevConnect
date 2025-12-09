@@ -4,25 +4,25 @@
     <!-- Inicio header -->
     <header id="cabecalho">
         <nav>
-            <a id="logo-desktop" href="./feed.html">
+            <a id="logo-desktop"  asp-controller="Home" asp-action="Index">
                 <img src="../images/logotipo- pagina inicial.svg" alt="Logo da empresa devcconect">
             </a>
 
-            <a id="logo-mobile" href="./feed.html">
+            <a id="logo-mobile"  asp-controller="Home" asp-action="Index">
                 <img src="../images/logo-devconnect-sm.svg" alt="Logo da empresa devcconect">
             </a>
 
             <!-- icones -->
             <div class="cabecalho-acoes">
 
-                <a href="./feed.html">
+                <a  asp-controller="Home" asp-action="Index">
                     <img src="../images/icone-casa-preto.svg" alt="Ícone de uma casa na cor preta">
                 </a>
                 <a href="#">
                     <img src="../images/icone-coracao-preto.svg" alt="Ícone de um coração na cor azul">
                 </a>
 
-                <a href="#">
+                <a asp-controller="Usuario" asp-action="Perfil">
                     <img class="foto-perfil" src="../images/foto_perfil.svg" alt="Foto de perfil">
                 </a>
             </div>
