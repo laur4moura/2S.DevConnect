@@ -1,134 +1,149 @@
-
-
+@using Microsoft.IdentityModel.Tokens
+@model List<DevConnect.Models.TbPublicacao>
 <link rel="stylesheet" href="~/css/feed.css">
-    <!-- Inicio header -->
-    <header id="cabecalho">
-        <nav>
-            <a id="logo-desktop"  asp-controller="Home" asp-action="Index">
-                <img src="../images/logotipo- pagina inicial.svg" alt="Logo da empresa devcconect">
+<script defer>
+    const publicacaoNovaCadastrada = "@ViewBag.publicacaoNovaCadastrada";
+
+    if (publicacaoNovaCadastrada == "Nao Cadastrada") {
+        alert("Não foi possível cadastrar a publicação. Tente novamente.");
+    } else if (publicacaoNovaCadastrada == "Cadastrada") {
+        alert("Publicação postada!");
+    }
+</script>
+
+
+<!-- Inicio header -->
+<header id="cabecalho">
+    <nav>
+        <a id="logo-desktop">
+            <img src="../images/logotipo- pagina inicial.svg" alt="Logo da empresa devcconect">
+        </a>
+
+
+
+        <a id="logo-mobile" asp-controller="Home" asp-action="Index">
+            <img src="../images/logo-devconnect-sm.svg" alt="Logo da empresa devcconect">
+        </a>
+
+
+        <!-- icones -->
+        <div class="cabecalho-acoes">
+
+            <a asp-controller="Home" asp-action="Index">
+                <img src="../images/icone-casa-preto.svg" alt="Ícone de uma casa na cor preta">
             </a>
 
-            <a id="logo-mobile"  asp-controller="Home" asp-action="Index">
-                <img src="../images/logo-devconnect-sm.svg" alt="Logo da empresa devcconect">
+            <a href="#">
+                <img src="../images/icone-coracao-preto.svg" alt="Ícone de um coração na cor azul">
             </a>
 
-            <!-- icones -->
-            <div class="cabecalho-acoes">
+            <a asp-controller="Usuario" asp-action="Perfil">
+                <img class="foto-perfil" src="../images/foto_perfil.svg" alt="Foto de perfil">
+            </a>
+        </div>
 
-                <a  asp-controller="Home" asp-action="Index">
-                    <img src="../images/icone-casa-preto.svg" alt="Ícone de uma casa na cor preta">
-                </a>
+    </nav>
+</header>
+<!-- Fim header -->
+
+<!-- Inicio main -->
+<main>
+    <div class="container-flex-publi">
+        <!-- Inicio Storys -->
+        <section id="storys" class="estilo-formulario">
+            <!-- card story -->
+            <article class="card-story">
                 <a href="#">
-                    <img src="../images/icone-coracao-preto.svg" alt="Ícone de um coração na cor azul">
+                    <img src="../images/Captura de tela 2025-09-02 084545.png" alt="Foto de perfil">
+                    <span>floflo_biruta</span>
                 </a>
+            </article>
 
-                <a asp-controller="Usuario" asp-action="Perfil">
-                    <img class="foto-perfil" src="../images/foto_perfil.svg" alt="Foto de perfil">
+            <!-- card story -->
+            <article class="card-story">
+                <a href="#">
+                    <img src="../images/foto story's 2.png" alt="Foto de perfil">
+                    <span>rezende.ex</span>
                 </a>
-            </div>
+            </article>
 
-        </nav>
-    </header>
-    <!-- Fim header -->
+            <!-- card story -->
+            <article class="card-story">
+                <a href="#">
+                    <img src="../images/foto story's 3.png" alt="Foto de perfil">
+                    <span>mariaAlice</span>
+                </a>
+            </article>
 
-    <!-- Inicio main -->
-    <main>
-        <div class="container-flex-publi">
-            <!-- Inicio Storys -->
-            <section id="storys" class="estilo-formulario">
-                <!-- card story -->
-                <article class="card-story">
-                    <a href="#">
-                        <img src="../images/Captura de tela 2025-09-02 084545.png" alt="Foto de perfil">
-                        <span>floflo_biruta</span>
-                    </a>
-                </article>
+            <!-- card story -->
+            <article class="card-story">
+                <a href="#">
+                    <img src="../images/foto story's 4.png" alt="Foto de perfil">
+                    <span>vesguinha</span>
+                </a>
+            </article>
 
-                <!-- card story -->
-                <article class="card-story">
-                    <a href="#">
-                        <img src="../images/foto story's 2.png" alt="Foto de perfil">
-                        <span>rezende.ex</span>
-                    </a>
-                </article>
+            <!-- card story -->
+            <article class="card-story">
+                <a href="#">
+                    <img src="../images/foto story's 5.png" alt="Foto de perfil">
+                    <span>divertida_mc</span>
+                </a>
+            </article>
 
-                <!-- card story -->
-                <article class="card-story">
-                    <a href="#">
-                        <img src="../images/foto story's 3.png" alt="Foto de perfil">
-                        <span>mariaAlice</span>
-                    </a>
-                </article>
+            <!-- card story -->
+            <article class="card-story">
+                <a href="#">
+                    <img src="../images/foto story's 6.jpg" alt="Foto de perfil">
+                    <span>ex.fomos</span>
+                </a>
+            </article>
 
-                <!-- card story -->
-                <article class="card-story">
-                    <a href="#">
-                        <img src="../images/foto story's 4.png" alt="Foto de perfil">
-                        <span>vesguinha</span>
-                    </a>
-                </article>
+            <!-- card story -->
+            <article class="card-story">
+                <a href="#">
+                    <img src="../images/foto story's 7.jpg" alt="Foto de perfil">
+                    <span>sogrin</span>
+                </a>
+            </article>
+            <!-- card story -->
+            <article class="card-story">
+                <a href="#">
+                    <img src="../images/foto story's 8.jpg" alt="Foto de perfil">
+                    <span>minha life</span>
+                </a>
+            </article>
 
-                <!-- card story -->
-                <article class="card-story">
-                    <a href="#">
-                        <img src="../images/foto story's 5.png" alt="Foto de perfil">
-                        <span>divertida_mc</span>
-                    </a>
-                </article>
+            <!-- card story -->
+            <article class="card-story">
+                <a href="#">
+                    <img src="../images/foto story's 9.jpg" alt="Foto de perfil">
+                    <span>anacadela</span>
+                </a>
+            </article>
 
-                <!-- card story -->
-                <article class="card-story">
-                    <a href="#">
-                        <img src="../images/foto story's 6.jpg" alt="Foto de perfil">
-                        <span>ex.fomos</span>
-                    </a>
-                </article>
+            <!-- card story -->
+            <article class="card-story">
+                <a href="#">
+                    <img src="../images/foto story's 10.jpg" alt="Foto de perfil">
+                    <span>we</span>
+                </a>
+            </article>
+        </section>
+        <!-- Fim Storys -->
 
-                <!-- card story -->
-                <article class="card-story">
-                    <a href="#">
-                        <img src="../images/foto story's 7.jpg" alt="Foto de perfil">
-                        <span>sogrin</span>
-                    </a>
-                </article>
-                <!-- card story -->
-                <article class="card-story">
-                    <a href="#">
-                        <img src="../images/foto story's 8.jpg" alt="Foto de perfil">
-                        <span>minha life</span>
-                    </a>
-                </article>
-
-                <!-- card story -->
-                <article class="card-story">
-                    <a href="#">
-                        <img src="../images/foto story's 9.jpg" alt="Foto de perfil">
-                        <span>anacadela</span>
-                    </a>
-                </article>
-
-                <!-- card story -->
-                <article class="card-story">
-                    <a href="#">
-                        <img src="../images/foto story's 10.jpg" alt="Foto de perfil">
-                        <span>we</span>
-                    </a>
-                </article>
-            </section>
-            <!-- Fim Storys -->
-
-            <section id="cadastro-publi" class="estilo-formulario">
-                <h2>Publicação</h2>
+        <section id="cadastro-publi" class="estilo-formulario">
+            <h2>Publicação</h2>
 
 
 
-                <form action="">
-                    <textarea name="" id="" placeholder="Digite a descrição do post..."></textarea>
+            <form enctype="multipart/form-data" asp-action="Index" asp-controller="Feed" method="post">
+                <textarea name="Descricao" id="" placeholder="Digite a descrição do post..." required></textarea>
 
                     <footer>
                         <div>
                             <label for="campo-upload" id="texto-upload">Faça upload da sua imagem aqui....</label>
-                            <input type="file" name="" id="campo-upload">
+                            <input type="file" id="campo-upload" class="file" name="imagem">
                         </div>
 
                         <button type="submit" class="formulario-botao-azul">Postar</button>
@@ -140,41 +155,85 @@
 
             </section>
 
-            <section id="publicacoes">
-                <!--Inicio card de publicação-->
-                <article class="card-publi">
-                    <header>
-                        <a href="#">
-                            <img class="foto-perfil" src="../images/Captura de tela 2025-09-02 084545.png"
-                                alt="Foto de perfil">
-                            floflo_biruta
+           <section id="publicacoes">
 
-                        </a>
-                    </header>
+    @foreach (TbPublicacao publicacao in Model)
+    {
+        if (publicacao.ImagemUrl.IsNullOrEmpty())
+        {
+            <!-- Card quando NÃO tem imagem -->
+            <article class="card-publi">
+                <header>
+                    <a href="#">
+                        <img class="foto-perfil" src="/images/Captura de tela 2025-09-02 084545.png"
+                             alt="Foto de perfil">
+                        floflo_biruta
+                    </a>
+                </header>
 
-                    <figure>
-                        <img class="imagem-publicacao" src="../images/foto feed 3.jpg" alt="">
+                <figure>
+                    <img class="imagem-publicacao" src="~/images/@publicacao.ImagemUrl" alt="">
 
-                        <figcaption class="descricao-publicacao">
-                            floflo_biruta
-                            <p>meu mesversário</p>
-                        </figcaption>
+                    <figcaption class="descricao-publicacao">
+                        <p>@publicacao.Descricao <br>
+                           @publicacao.DataPublicacao</p>
+                    </figcaption>
 
-                        <div class="interacoes-publicacao">
-                            <button>
-                                <img src="../images/icone-coracao-preto.svg" alt="">
-                            </button>
-                            <button>
-                                <img src="../images/icone-comentario-preto.svg" alt="">
-                            </button>
+                    <div class="interacoes-publicacao">
+                        <button>
+                            <img src="../images/icone-coracao-preto.svg" alt="">
+                        </button>
+                        <button>
+                            <img src="../images/icone-comentario-preto.svg" alt="">
+                        </button>
 
-                            <span>100mil curtidas</span>
+                        <span>100mil curtidas</span>
+                    </div>
+                </figure>
 
-                        </div>
-                    </figure>
-                    
-                    <button type="button"> Ver mais comentários...</button>
-                </article>
+                <button type="button">Ver mais comentários...</button>
+            </article>
+        }
+        else
+        {
+            <!-- Card quando TEM imagem -->
+            <article class="card-publi2">
+                <header>
+                    <a href="#">
+                        <img class="foto-perfil" src="../images/foto- VIRGINIA.jpg" alt="foto de perfil">
+                        cpi_wepink
+                    </a>
+                </header>
+
+                <figure>
+                    <img class="imagem-publicacao" src="~/images/@publicacao.ImagemUrl" alt="">
+
+                    <figcaption class="descricao-publicacao">
+                        <p class="texto-publi">@publicacao.Descricao</p>
+                    </figcaption>
+
+                    <div class="interacoes-publicacao">
+                        <button>
+                            <img src="../images/icone-coracao-preto.svg" alt="">
+                        </button>
+
+                        <button>
+                            <img src="../images/icone-comentario-preto.svg" alt="">
+                        </button>
+
+                        <span>197mil curtidas</span>
+                    </div>
+                </figure>
+
+                <button type="button">Ver mais comentários</button>
+            </article>
+        }
+    }
+
+</section>
+
+
+                }
                 <!--Fim card de publicação-->
             </section>
 

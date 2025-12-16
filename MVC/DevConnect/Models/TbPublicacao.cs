@@ -9,6 +9,8 @@ namespace DevConnect.Models;
 [Table("tb_publicacao")]
 public partial class TbPublicacao
 {
+    internal DateTime data_publicacao;
+
     [Key]
     [Column("id")]
     public int Id { get; set; }
@@ -18,7 +20,7 @@ public partial class TbPublicacao
     public string? Descricao { get; set; }
 
     [Column("imagem_url")]
-    [StringLength(150)]
+    [StringLength(255)]
     public string? ImagemUrl { get; set; }
 
     [Column("data_publicacao")]
